@@ -1,0 +1,95 @@
+*{
+    background-color: wheat;
+}
+.img_row_2{
+    display: grid;
+    grid-template-columns: 40% 30% 30%;
+}
+
+.det_1{
+    border: 3px solid black;
+    text-align: center;
+    font-weight: bold;
+}
+.det_2{
+    border: 3px solid black;
+    text-align: center;
+    font-family: sans-serif;
+    font-weight: bold;
+}
+.img_row_3{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    font-family: sans-serif;
+    font-size: 20px;
+}
+.nav_bar{
+    font-size: 30px;
+    padding: 10px;
+    float: left;
+    margin-right: 10px;
+    border-radius: 20px;
+    text-align: left;
+    font-style:Arial, Helvetica, sans-serif;
+    text-decoration: none;
+}
+.img1{
+    width: 400px;
+}
+.img2{
+    width: 519px;
+    height: 280px;
+}
+.img3{
+    border: 3px solid black;
+    height: 100%;
+    width: 520px;
+}
+.name{
+    text-align: center;
+}
+.images{
+    display: grid;
+    grid-template-columns: 30% 30% 30%;
+    
+}
+.margin
+{
+    border: 3px solid black;
+    /* height: 50vh; */
+    /* margin: 20px; */
+    width: 100%;
+}
+body{
+    min-height: 100%;
+}
+.nav_bar{
+    width: 97vw;
+}
+a{
+    color: black;
+    margin-right: 30px;
+    text-decoration: none;
+    width: 100vw;
+   text-align: left;
+   justify-content: left;
+}
+a:hover{
+    background-color: black;
+    color: white;
+}
+hr{
+    border: 2px solid black;
+}
+.images > div{
+    width: 20px;
+}
+@media screen and (max-width: 480px) {
+    body {
+      background-color: lightgreen;
+    }
+    .container{
+        background-color: red;
+    }
+
+  }
